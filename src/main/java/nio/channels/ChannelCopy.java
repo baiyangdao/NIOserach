@@ -17,6 +17,8 @@ public class ChannelCopy {
         WritableByteChannel dest = Channels.newChannel(System.out);
         channelCopy1(source,dest);
         channelCopy2(source,dest);
+        source.close();
+        dest.close();
     }
 
     /**
