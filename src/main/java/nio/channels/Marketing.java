@@ -27,6 +27,7 @@ public class Marketing {
 
         }
         System.out.println("写出数据完成"+DEMOGRAPHIC);
+        fos.close();
     }
 
     private static String[] col1 = {
