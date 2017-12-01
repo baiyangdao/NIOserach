@@ -15,7 +15,7 @@ public class SelectSocket {
     public static int PORT_NUMBER = 1234;
 
     public static void main(String[] args) throws IOException {
-
+            new SelectSocket().go(args);
     }
 
     public void go(String[] argv) throws IOException {
